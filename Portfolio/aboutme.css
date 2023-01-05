@@ -1,0 +1,116 @@
+
+
+img{
+    height: auto;
+    width: 330px;
+    margin-right: 50px;
+ 
+}
+
+.about-me-images{
+    display: flex;
+    border: 2px solid red;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* flex card-info */
+.flex-container {
+    display: flex;
+    border: 2px solid red;
+    height: 450px;
+    color: white;
+    font-size: 24px;
+    flex-flow: row wrap;
+}
+
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+
+.container-aboutme{
+   /* border: 2px solid green;
+   width: 50%;
+   margin: 10% 10% 10% 15%;
+   width: 80%;
+   height: 350px; */
+   height: 66vh;
+   /*This part is important for centering*/
+   display: grid;
+   place-items: center;
+}
+
+.text-aboutme{
+    color: white;
+    font-size: 2vw;
+    /* width: 80vw;
+    height: 20vw; */
+    margin: 55px ;
+    /* border: 2px solid red; */
+}
+/* br tag inache ne raboti kakto trqbva */
+
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .12em; /* Adjust as needed */
+    animation: 
+      typing 2.5s steps(30, end),
+      blink-caret .75s step-end ;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  .box-typing{
+    border: 2px solid red;
+    height: 70%;
+    margin: 6% 170px auto 170px;
+  }
+
+  .box-aboutme ul li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  }
+  .box-aboutme{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/*  */
+
+  .h1-aboutme{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .container-aboutme{
+    background-color: #191919;
+  }

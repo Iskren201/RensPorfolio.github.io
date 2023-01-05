@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+  </head>
+  <body>
+    <style>
+      .card {
+        width: 240px;
+        padding: 15px;
+        border-radius: 20px 20px;
+        background: #eee;
+        position: relative;
+        box-shadow: 0px 10px;
+        transition: 0.2s ease;
+        overflow: hidden;
+        text-align: center;
+      }
+      .card img {
+        height: 140px;
+        width: 100%;
+        border-radius: 8px;
+        position: absolute;
+        width: 210px;
+        height: 140px;
+        bottom: 90%;
+        left: 54%;
+        transform: translateX(-50%) rotate(0deg);
+        filter: drop-shadow(0px 15px 15px #0006);
+        transition: 0.2s ease;
+      }
+
+      .card:hover img {
+        bottom: 80%;
+      }
+      .card h2 {
+        margin: 0;
+        font-size: 32px;
+        font-family: "Oswald";
+      }
+
+      .card .cat {
+        font-family: "Oswald";
+        padding-top: 60px;
+        font-size: 11px;
+        color: #ce981b;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: 4px;
+        margin: 0;
+      }
+
+      .card p {
+        margin: 0px 0px 15px;
+        font-family: "Oswald";
+      }
+      .card p {
+        text-transform: uppercase;
+        font-family: "Oswald";
+        font-weight: 700;
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        background: #ce981b;
+        border-radius: 10px;
+        padding: 10px 20px;
+        display: inline-block;
+        letter-spacing: 1px;
+        box-shadow: 0px 5px 10px 0px #0004;
+        transition: 0.2 ease;
+        border: 2px solid #ce981b;
+      }
+
+      p.price {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .card:hover {
+        cursor: pointer;
+      }
+      .card:hover a {
+        background: #eee;
+        color: red;
+      }
+    </style>
+
+    <div class="card">
+      <img src="images/project1.png" alt="" />
+      <h2>My Project</h2>
+      <p>project lalalal</p>
+    </div>
+  </body>
+</html>

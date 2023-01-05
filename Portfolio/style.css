@@ -1,0 +1,709 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+      :root{
+          font-family: var(--PT Serif, serif);
+      }
+      
+      
+      
+      *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+      
+      /* Ot tuka e nav bara do -> */
+      .container-top-bar{
+          height: 100vh;
+          width: 100%;
+          background-image: url(images/pexels-mikhail-nilov-7828670.jpg);
+          background-size: cover;
+          background-position: center; 
+      }
+      
+      
+      .btn-more-info {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 50px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 15px;
+          cursor: pointer;
+          /*
+          background-color: #f9004d;
+          color: white;
+          text-decoration: none;
+          border: 2px solid transparent;
+          border-radius: 5px;
+          font-weight: bold;
+          transition: transform .4s;
+          */
+      }
+      
+      /* BTN hover da vidq za better still na cveta i efekti  */
+      
+      .btn-more-info:hover{
+          color: white;
+          background-color: transparent;
+          border: 2px solid #f9004d;
+          transition: .4s;
+      }
+      
+      /* <- Do tuk  */
+      /* -------------------------------------------- */
+      /* Content  */
+      
+      .content{    /* Tova e vzeto ot youtube*/
+          position: absolute;
+          top: 50%;
+          left: 8%;
+          transform: translateY(-50);
+      }
+      
+      h1 {
+          color:white;
+          margin: 20px 0 20px;
+          font-size: 75px;
+      }
+      
+      h3{
+          color: white;
+          font-size: 35px;
+          margin-bottom: 50px;
+      }
+      
+      h4{
+          color: white;
+          letter-spacing: 2px;
+          font-size: 25px;
+      }
+      
+      .newslatter form { 
+          width: 380px;
+          max-width: 100%;
+          position: relative;
+      }
+      
+      .newslatter form input:first-child{
+          display: inline-block;
+          width: 100%;
+          padding: 14px 130px 14px 15px ;
+          border: 2px solid rgb(231, 111, 111);
+          outline: none;
+          border-radius: 30px;
+      }
+      
+      .newslatter form input:last-child{
+           position: absolute;
+           display: inline-block;
+           border: none;
+           outline: none;
+           padding: 10px 30px;
+           border-radius: 30px;
+           background-color: #f9004d;
+           color: white;
+           box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+           top: 6px;
+           right: 6px;
+      }
+      /* End of content */
+      
+      /* Start About me section with information  */
+      
+      .about{
+          width: 100%;
+          padding:100px 0;
+          background-color: #191919;
+      
+      }
+      
+      .about img{
+          height: auto;
+          width: 530px;
+          margin-right: 50px;
+          border-radius: 30%;
+      }
+      
+      .about-text{
+          width: 50%;
+      }
+      
+      .main{
+          width: 1130px;
+          max-width: 95%;
+          margin: 0 auto ;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      }
+      
+      .about-text h2{
+          color: white;
+          font-size: 75px;
+          text-transform: capitalize;
+          margin-bottom: 20px;
+          transition: transform .4s;
+      }
+      
+      .about-text h2:hover{
+          transform: scale(1.1);
+          color: #A86C6C;
+      }
+      
+      .about-text h5{
+          color: white;
+          font-size: 28px;
+          letter-spacing: 2px;
+          margin-bottom: 25px;
+          text-transform: capitalize;
+      }
+      
+      .about-text p {
+          color: #fcfc;
+          letter-spacing: 1.5px;
+          line-height: 28px;
+          margin-bottom: 45px;
+          font-size: 18px;
+      }
+      
+      .button2{
+          background-color: #f9004d;
+          text-decoration: none;
+          border:2px solid transparent;
+          font-weight: bold;
+          padding: 13px 30px;
+          border-radius: 30px;
+          transition: .4s;
+          color: white;
+      }
+      
+      .button2:hover{
+          background-color: transparent;
+          border: 2px solid #f9004d;
+          cursor: pointer;
+          transform: scale(1.4);
+      }
+      
+      /* End of about me Section  */
+      
+      
+      /* Service section */
+      
+      .service{
+          background: #101010;
+          width: 100%;
+          padding:100px 0px;
+      }
+      
+      .title h2 {
+          color: white;
+          font-size: 75px;
+          width: 1130px;
+          margin: 0px auto;
+          text-align: center;
+      
+      }
+          /* Tuk neshto ne raboti kakto trqbva ? ? ?  */
+      .box {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 400px;
+      }
+          
+      
+       .card{
+          height: 356px;
+          border: 2px solid red;
+          width: 335px;
+          padding: 20px 35px;
+          background: #191919;
+          border-radius: 20px;
+          margin: 15px;
+          position: relative;
+          /* overflow: hidden; */
+          text-align: center ;
+      
+       }
+      
+      
+       .card i {
+           display: block;
+           font-size: 50px;
+           text-align: center;
+           margin: 25px 0px;
+           color: #f9004d;
+      
+       }
+      
+       h5 {
+          color: white;
+          font-size: 23px;
+          margin-bottom: 15px;
+           
+       }
+      
+       .pra p{
+          color: white;
+          font-size: 16px;
+          line-height: 27px;
+          margin-bottom: 27px;
+       }
+      
+       .card .button{
+          background-color: #f9004d;
+          text-decoration: none;
+          border:2px solid transparent;
+          font-weight: bold;
+          padding: 13px 30px;
+          border-radius: 30px;
+          transition: .4s;
+          color: white; 
+      }
+      
+      .card .button:hover{
+          background-color: transparent;
+          border: 2px solid #f9004d;
+          cursor: pointer;
+          transform: scale(1.4);
+      }
+      
+      .contact-me{
+          width: 100%;
+          height: 290px;
+          background:#191919;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+      
+      }
+      
+      .contact-me p {
+          color: white;
+          font-size: 45px;
+          font-weight: bold;
+          margin-bottom: 25px;
+      }
+      
+      .contact-me .button-two{
+          background-color: #f9004d;
+          text-decoration: none;
+          border:2px solid transparent;
+          font-weight: bold;
+          padding: 13px 30px;
+          border-radius: 30px;
+          transition: .4s;
+          color: white;
+      }
+      
+      .contact-me .button-two:hover{
+          background-color: transparent;
+          border: 2px solid #f9004d;
+          cursor: pointer;
+          transform: scale(1.2);
+      }
+      
+      footer{
+          position: relative;
+          width: 100%;
+          height: 400px;
+          background: #101010;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      
+      }
+      
+      footer p:nth-child(1){
+          color: white;
+          font-size: 30px;
+          margin-bottom: 20px;
+          font-weight: bold;
+      
+      }
+      
+      footer p:nth-child(2){
+          color: white;
+          font-size: 17px;
+          width: 500px;
+          text-align: center;
+          line-height: 26px;
+      }
+      .social{
+          display: flex;
+      }
+      
+      .social a {
+          width: 100px;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #f9004d;
+          border-radius: 50%;
+          margin: 22px 10px;
+          color: white;
+          font-size: 45px;
+          text-decoration: none;
+      }
+      
+      .social a:hover{
+          background-color: transparent;
+          border: 2px solid #f9004d;
+          cursor: pointer;
+          transform: scale(1.3);
+      
+      }
+      
+      
+      /* Animate text h1-h4 */
+      
+      
+      
+      .typing-demo {
+          width: 52ch;
+          animation: typing 2s steps(34), blink .5s step-end infinite alternate;
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 3px solid;
+          font-family: monospace;
+          font-size: 2em;
+        }
+        
+        @keyframes typing {
+          from {
+            width: 0
+          }
+        }
+            
+        @keyframes blink {
+          50% {
+            border-color: transparent
+          }
+        }
+       
+      /* Rensponsiv */
+
+
+      
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    .typing-demo h1{
+        display: block;
+        width: 350px; 
+        border: 1px solid #000000;
+        word-wrap: break-word;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    div span:last-of-type {
+        display: block;
+        color: #f00;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .about img{
+        height: 230px;
+        width: 270px;
+        margin-right: 50px;
+        border-radius: 30%;
+    }
+    
+    .about h2{
+        margin: 0 10px 0 -270px;
+    }
+    .about h5{
+        margin: 20 20px 0 -150px;
+    }
+}
+
+
+/* card with skils Media */
+
+@media screen and (max-width: 600px){
+
+        .service h2{
+            margin: 0 -140px 30px -270px;
+        }
+
+        .card{
+            height: 279px;
+            border: 2px solid red;
+            width: 223px;
+            padding: 20px 35px;
+            background: #191919;
+            border-radius: 20px;
+            /* margin: 15px; */
+            /* position: relative; */
+            /* overflow: hidden; */
+            text-align: center ;
+            display: flex;
+            /* flex-flow: row wrap; */
+        }
+        .box {
+            display: flex;
+            flex-flow: row wrap;
+            margin-bottom: 90px;
+            margin: 0 10px 90px 0;
+        }
+       
+
+        .card i {
+            display: block;
+            font-size: 40px;
+            text-align: center;
+            margin: 25px 0px;
+            color: #f9004d;
+       
+        }
+        h5 {
+            color: white;
+            font-size: 16px;
+            margin-bottom: 15px; 
+         }
+         .pra p{
+            color: white;
+            font-size: 12px;
+            /* line-height: 27px; */
+            /* margin-bottom: 27px; */
+            word-wrap: break-word;
+         }
+         .card .button{
+            background-color: #f9004d;
+            text-decoration: none;
+            border:2px solid transparent;
+            font-weight: bold;
+            /* padding: 13px 15px; */
+            border-radius: 30px;
+            transition: .4s;
+            color: white; 
+            /* width: 50px;
+            height:90px; */
+            border: 2px solid green;
+            position: absolute;
+        }
+      
+        .button:nth-child(1){
+            border-radius: 25px;
+            border: 2px solid transparent;
+            height:60px;
+            position: relative;  
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+        }
+        
+
+
+        /* animation text resize */
+
+        .typing-demo {
+            width: 24ch;
+            animation: typing 2s steps(24), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid;
+            font-family: monospace;
+            font-size: 1em;
+          }
+          
+          @keyframes typing {
+            from {
+              width: 0
+            }
+          }
+              
+          @keyframes blink {
+            50% {
+              border-color: transparent
+            }
+          }
+         
+
+        /* rensposiv animation resize */
+
+        .contact-me{
+            height: 190px;
+        
+        }
+        
+        .contact-me p {
+            font-size: 25px;  
+        }
+        .contact-me .button-two{
+            padding: 10px 20px;
+            border-radius: 40px;
+        }
+
+        /* Footer */
+
+         
+      footer{
+        height: 200px;
+    }
+    .social a {
+        width: 70px;
+        height: 70px;
+        font-size: 25px;
+        
+    }
+    
+    .social a:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+        transform: scale(1.2);
+    
+    }
+    
+   
+}
+
+@media screen and (max-width: 750px){
+
+    .typing-demo h1{
+        display: block;
+        width: 250px; 
+        border: 2px solid #000000;
+        word-wrap: break-word;
+    }
+    
+    div span:last-of-type {
+        display: block;
+        color: #f00;
+    }
+    .typing-demo {
+        width: 22ch;
+      }
+
+      .about img{
+        height: 280px;
+        width: 270px;
+        margin-right: 50px;
+        border-radius: 30%;
+    }
+    
+    .about h2{
+        margin: 0 10px 0 -270px;
+    }
+    .about h5{
+        margin: 20 20px 0 -150px;
+    }
+
+    .service h2{
+        margin: 0 -250px 30px -170px
+    }
+
+    .card{
+        height: 279px;
+        border: 2px solid red;
+        width: 223px;
+        padding: 20px 35px;
+        margin-bottom: 120px;
+    }
+    .contact-me{
+        height: 190px;
+    
+    }
+    
+    .contact-me p {
+        font-size: 25px;  
+    }
+    .contact-me .button-two{
+        padding: 10px 20px;
+        border-radius: 40px;
+    }
+
+    .social a {
+        width: 90px;
+        height: 90px;
+        font-size: 45px;
+        
+    }
+    
+    .social a:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+        transform: scale(1.2);
+    
+    }
+    .box {
+        display: flex;
+        margin: 0 0 90px 0;
+    }
+    .pra p{
+        color: white;
+        font-size: 12px;
+        word-wrap: break-word;
+     }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .typing-demo h1{
+        border: 2px solid #000000;
+    }
+    
+    div span:last-of-type {
+        display: block;
+        color: #f00;
+    }
+    .typing-demo {
+        width: 22ch;
+      }
+      .service h2{
+        margin: 0 -120px 30px -70px
+    }
+   
+    .card{
+        height: 326px;
+        border: 2px solid red;
+        width: 305px;
+        padding: 20px 35px;
+        background: #191919;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        /* overflow: hidden; */
+        text-align: center ;
+    
+     }
+
+}
+
+@media screen and (max-width: 1500px){
+    .typing-demo h1{
+        border: 2px solid #000000;
+    }
+    
+    div span:last-of-type {
+        display: block;
+        color: #f00;
+    } 
+}
+.typing-demo h1{
+    border: 2px solid #000000;
+}
+
+div span:last-of-type {
+    display: block;
+    color: #f00;
+}
+
+
+
+     
+
